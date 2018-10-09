@@ -1,0 +1,11 @@
+/AbstractAuthMethod.class
+/AuthHostbased.class
+/AuthMethod.class
+/AuthNone.class
+/AuthParams.class
+/AuthPassword.class
+/AuthPublickey.class
+/KeyedAuthMethod.class
+/UserAuth.class
+/UserAuthException.class
+/UserAuthProtocol.class
