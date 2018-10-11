@@ -8,8 +8,8 @@
 
 package TestingTools.IO_2012;
 
-import TestingTools.Generic.autoScreenShot;
-import com.DisasterRecovery.drPurchaseOrderCreateIOTest;
+import test.TestingTools.Generic.autoScreenShot;
+import test.com.DisasterRecovery.drPurchaseOrderCreateIOTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

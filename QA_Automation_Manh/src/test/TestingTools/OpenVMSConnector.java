@@ -1,8 +1,7 @@
-package TestingTools;
+package test.TestingTools;
 
 import de.mud.telnet.TelnetWrapper;
 import org.apache.commons.net.telnet.*;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>QA_Automation_Manh</groupId>
+  <artifactId>QA_Automation_Manh</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>QA Automation Maven</name>
+  <description>QA Automation Maven desc</description>
+  <build>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <scriptSourceDirectory>${basedir}/src/main/scripts</scriptSourceDirectory>
+    <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+    <outputDirectory>${basedir}/target/classes</outputDirectory>
+    <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <!--                                      dependencies                        -->
+  <dependencies>
+    <dependency>
+     <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.1.1</version>
+      <scope>test</scope>
+	</dependency>
+  </dependencies>
+    <!--                                      dependencies                        -->
+    <!--                                      Continuous Integration                        -->
+  <ciManagement>
+    <system>continuum</system>
+    <url>http://127.0.0.1:8080/continuum</url>
+    <notifiers>
+      <notifier>
+        <type>mail</type>
+        <sendOnError>true</sendOnError>
+        <sendOnFailure>true</sendOnFailure>
+        <sendOnSuccess>false</sendOnSuccess>
+        <sendOnWarning>false</sendOnWarning>
+        <configuration><address>continuum@127.0.0.1</address></configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <!--                                      Continuous Integration                        -->
+    <mailingLists>
+    <mailingList>
+      <name>User List</name>
+      <subscribe>user-subscribe@127.0.0.1</subscribe>
+      <unsubscribe>user-unsubscribe@127.0.0.1</unsubscribe>
+      <post>user@127.0.0.1</post>
+      <archive>http://127.0.0.1/user/</archive>
+      <otherArchives>
+        <otherArchive>http://base.google.com/base/1/127.0.0.1</otherArchive>
+      </otherArchives>
+    </mailingList>
+  </mailingLists>
+</project>
