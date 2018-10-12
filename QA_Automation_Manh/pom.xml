@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>QA Automation Maven</name>
   <description>QA Automation Maven desc</description>
+  <packaging>jar</packaging>
   <build>
     <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
     <scriptSourceDirectory>${basedir}/src/main/scripts</scriptSourceDirectory>
@@ -48,6 +49,29 @@
     </notifiers>
   </ciManagement>
   <!--                                      Continuous Integration                        -->
+    <reporting>
+    <outputDirectory>${basedir}/target/report/site</outputDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.0.1</version>
+        <reportSets>
+          <reportSet>
+            <id>sunlink</id>
+            <reports>
+              <report>javadoc</report>
+            </reports>
+            <inherited>true</inherited>
+            <configuration>
+              <links>
+                <link>http://java.sun.com/j2se/1.5.0/docs/api/</link>
+              </links>
+            </configuration>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
     <mailingLists>
     <mailingList>
       <name>User List</name>
@@ -60,4 +84,26 @@
       </otherArchives>
     </mailingList>
   </mailingLists>
+    <developers>
+    <developer>
+      <id>kwestberg</id>
+      <name>Ken Westberg</name>
+      <email>westberg.ken@gmail.com</email>
+      <url>http://www.example.com/jdoe</url>
+      <organization>ACME</organization>
+      <organizationUrl>http://www.example.com</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>America/New_York</timezone>
+      <properties>
+        <picUrl>http://www.example.com/kwestberg/pic</picUrl>
+      </properties>
+    </developer>
+  </developers>
+    <issueManagement>
+    <system>Bugzilla</system>
+    <url>http://127.0.0.1/bugzilla/</url>
+  </issueManagement>
 </project>
