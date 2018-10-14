@@ -11,6 +11,7 @@ package TestingTools.WM_2012;
 import com.kwestberg.tests.WM_2012_HVA_cancel_DO;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import com.beust.testng.*;
 
 /**
  * Created by kwestberg on 3/13/2015.
@@ -21,7 +22,7 @@ import org.openqa.selenium.WebElement;
 public class Chrome_login_WM_2012 {
 
     private WebElement element;
-
+    @Test_Chrome_login_WM_2012
     public Chrome_login_WM_2012(String Warehouse) throws Exception {
         WM_2012_HVA_cancel_DO.class.getMethods();
         //WM_2012_HVA_cancel_DO.driverIE.switchTo().window(WM_2012_HVA_cancel_DO.parentHandle);

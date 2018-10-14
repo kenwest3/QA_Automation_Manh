@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73" started-at="2018-10-14T23:07:19Z" finished-at="2018-10-14T23:07:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="73" started-at="2018-10-14T23:07:19Z" finished-at="2018-10-14T23:07:19Z">
+      <class name="mainTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:mainTest@2a5ca609]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:mainTest@2a5ca609]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:mainTest@2a5ca609]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mainTest@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:mainTest@2a5ca609]" name="f" duration-ms="15" started-at="2018-10-14T19:07:19Z" data-provider="dp" finished-at="2018-10-14T19:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mainTest@2a5ca609]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:mainTest@2a5ca609]" name="f" duration-ms="0" started-at="2018-10-14T19:07:19Z" data-provider="dp" finished-at="2018-10-14T19:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mainTest@2a5ca609]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mainTest@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:mainTest@2a5ca609]" name="main" duration-ms="8" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mainTest@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:mainTest@2a5ca609]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mainTest@2a5ca609]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mainTest@2a5ca609]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:mainTest@2a5ca609]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-10-14T19:07:19Z" finished-at="2018-10-14T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- mainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

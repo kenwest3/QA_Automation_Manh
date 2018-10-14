@@ -17,12 +17,12 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by kwestberg on 4/8/2015.
  */
+@Test
 public class login_DOM_West {
 
     private WebElement element;
     String Warehouse = "TWCDOM_West";
     //String Warehouse;
-
 
     public login_DOM_West login_DOM_West() throws Exception {
         long end = System.currentTimeMillis() + 7000;

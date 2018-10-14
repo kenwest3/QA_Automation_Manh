@@ -17,12 +17,12 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by kwestberg on 4/8/2015.
  */
+@Test
 public class login_DOM_East {
 
     private WebElement element;
     String Warehouse = "TWCDOM_East";
     //String Warehouse;
-
 
     public login_DOM_East login_DOM_East() throws Exception {
         //WM_2012_TWC_Test.class.getMethods();
